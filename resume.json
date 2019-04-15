@@ -1,0 +1,114 @@
+{
+  "selectedTemplate": 1,
+  "headings": {
+    "education": "Education",
+    "awards": "",
+    "work": "Work Experience"
+  },
+  "basics": {
+    "name": "Matthew Berger",
+    "email": "matthewjordanberger@gmail.com",
+    "phone": "(775) 357 7884",
+    "website": "matthewjberger.xyz",
+    "location": {
+      "address": "Reno, NV"
+    }
+  },
+  "education": [
+    {
+      "location": "Reno, Nevada",
+      "area": "Computer Science and Engineering",
+      "endDate": "Dec 2017",
+      "gpa": "",
+      "institution": "University of Nevada, Reno",
+      "studyType": "BS",
+      "startDate": "August 2013"
+    }
+  ],
+  "work": [
+    {
+      "location": "Reno, NV",
+      "website": "",
+      "highlights": [
+        "Consolidated a large robotic calibration software suite by architecting a plugin based WPF application, allowing rapid development of new features in a single application for service technicians.",
+        "Automated instrument validation by reverse engineering and consolidating the large software suite for gravimetric analysis into a single, modular, lightweight program compatible with all variations of the core Hamilton robots.",
+        "Repaired all build systems for major codebases and automated manual tasks via scripts, allowing developers to build Hamilton codebases in a reproducible and continuous integration compatible manner.",
+        "Improved the workflow of one of Hamilton's largest OEM customers by creating a plugin-oriented service application and set of calibration routines specifically for their robots that allowed the customer to manage their robots without needing the generic core Hamilton software.",
+        "Created high level C# libraries that simplified complex logic when gathering data from the software describing robotic deck layouts and using that data to execute commands on a robot, including a library that wrapped a particular robot's text only firmware into a logically structured and robust application capable of performing complex tasks on the device with ease and minimal lines of code. "
+      ],
+      "startDate": "October 2014",
+      "company": "Hamilton Robotics",
+      "position": "Software Engineer I",
+      "endDate": "Present"
+    },
+    {
+      "highlights": [
+        "Created a web-enabled, searchable database application of subject experts for use by emergency response teams.",
+        "Architected a database and designed a graphical application using the Entity Framework for object-relational mapping.",
+        "Developed in Visual Studio 2013 with ASP.NET MVC 5, C#, MySQL, LINQ, and Razor markup."
+      ],
+      "company": "Washoe REOC",
+      "position": "Database Application Developer",
+      "startDate": "October 2014",
+      "endDate": "May 2016",
+      "location": "Reno, NV"
+    }
+  ],
+  "skills": [
+    {
+      "level": "",
+      "keywords": [
+        "C#",
+        "C++",
+        "Powershell"
+      ],
+      "name": "Languages (Fluent)"
+    },
+    {
+      "keywords": [
+        "Piano",
+        "Guitar",
+        "Rock Climbing",
+        "3D Printing"
+      ],
+      "name": "Hobbies"
+    }
+  ],
+  "projects": [
+    {
+      "keywords": [
+        "Powershell"
+      ],
+      "name": "Scoop Nerd Fonts",
+      "url": "https://github.com/matthewjberger/scoop-nerd-fonts",
+      "description": "Scoop package manager manifests for installing nerd fonts"
+    },
+    {
+      "keywords": [
+        "C++",
+        "CMake",
+        "Ogre3D"
+      ],
+      "url": "https://github.com/matthewjberger/eager",
+      "description": "An Ogre3D 1.9 and C++ project template that uses CMake to setup an Ogre development environment quickly and easily",
+      "name": "Eager"
+    }
+  ],
+  "awards": [
+    {
+      "title": "",
+      "date": "",
+      "awarder": "",
+      "summary": ""
+    }
+  ],
+  "sections": [
+    "templates",
+    "profile",
+    "work",
+    "education",
+    "projects",
+    "skills",
+    "awards"
+  ]
+}
