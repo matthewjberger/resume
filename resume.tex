@@ -5,7 +5,7 @@
     \usepackage{textcomp}
     \usepackage[utf8]{inputenc}
     \usepackage[T1]{fontenc}
-    \usepackage[margin=1in]{geometry}
+    \usepackage{adjustbox}
     \textheight=10in
     \pagestyle{empty}
     \raggedright
@@ -30,8 +30,9 @@
 }
 
 \newcommand{\header} [1] {
-    {\hspace*{-18pt}\vspace*{6pt} \textsc{#1}}
+    {\hspace*{-18pt}\vspace*{6pt} \large \textbf{\textsc{#1}}}
     \vspace*{-6pt} \lineunder
+    \vspace*{4pt}
 }
 
 \newcommand{\employer} [3] {
@@ -71,57 +72,79 @@
     
 
 %==== Profile ====%
-\vspace*{-10pt}
+%\vspace*{-10pt}
 \begin{center}
-	{\Huge \scshape {Matthew Berger}}\\
-	Reno, NV $\cdot$ matthewjordanberger@gmail.com $\cdot$ (775) 357 7884 $\cdot$ matthewjberger.xyz\\
+    {\Huge \scshape \textbf{Matthew Berger}}\\
+    \vspace*{4pt}
+    Reno, NV $\cdot$ matthewjordanberger@gmail.com $\cdot$ 775.357.7884 $\cdot$ matthewjberger.xyz/portfolio\\
+    \vspace*{-4pt}
 \end{center}
 
 %==== Experience ====%
 \header{Work Experience}
-\vspace{1mm}
 
-\textbf{Hamilton Robotics} \hfill Reno, NV\\
-\textit{Software Engineer I} \hfill October 2014 | Present\\
+\textbf{Scientific Games} \hfill Reno, NV\\
+\textit{Software Engineer} \hfill July 2019 - Present\\
 \vspace{-1mm}
 \begin{itemize} \itemsep 1pt
-	\item Consolidated a large robotic calibration software suite by architecting a plugin based WPF application, allowing rapid development of new features in a single application for service technicians.
-	\item Automated instrument validation by reverse engineering and consolidating the large software suite for gravimetric analysis into a single, modular, lightweight program compatible with all variations of the core Hamilton robots.
-	\item Repaired all build systems for major codebases and automated manual tasks via scripts, allowing developers to build Hamilton codebases in a reproducible and continuous integration compatible manner.
-	\item Improved the workflow of one of Hamilton\textquotesingle{}s largest OEM customers by creating a plugin-oriented service application and set of calibration routines specifically for their robots that allowed the customer to manage their robots without needing the generic core Hamilton software.
-	\item Created high level C\# libraries that simplified complex logic when gathering data from the software describing robotic deck layouts and using that data to execute commands on a robot, including a library that wrapped a particular robot\textquotesingle{}s text only firmware into a logically structured and robust application capable of performing complex tasks on the device with ease and minimal lines of code.
+	\item Collaborated with remote engineers to integrate TextMeshPro into a Unity-based production casino game development framework.
+	\item Assessed and resolved batches of defects quickly that were crucial to the release of major games.
+\end{itemize}
+\textbf{Hamilton Robotics} \hfill Reno, NV\\
+\textit{Software Engineer} \hfill December 2017 - July 2019\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Designed and built safety-critical software in a cross-disciplinary environment that calibrates and operates liquid-handling medical robots.
+	\item Reduced development time for new calibration routines from two months to less than two weeks by consolidating multiple applications into a single GUI and reusable-plugin framework.
+	\item Decreased development environment setup from a day to a few clicks by creating a bootstrapper that installs dependencies and configures settings on a Windows virtual machine.
+	\item Worked directly with Hamilton\textquotesingle{}s largest OEM customer to architect an application that commands the firmware in their robots for rapidly diagnosing and resolving mechanical issues.
+	\item Mentored new hires and interns on team processes and coding practices.
+\end{itemize}
+\textbf{Hamilton Robotics} \hfill Reno, NV\\
+\textit{Software Engineering Intern} \hfill October 2014 - December 2017\\
+\vspace{-1mm}
+\begin{itemize} \itemsep 1pt
+	\item Decreased time spent quality testing robots by more than a week per robot by automating the process of gravimetric analysis.
+	\item Saved developers hours of time per day on common tasks by creating a suite of in-house tools.
+	\item Improved instrument sales by creating software adapters for both SiLA and non-SiLA compliant devices through collaboration with third-party device manufacturers.
 \end{itemize}
 \textbf{Washoe REOC} \hfill Reno, NV\\
-\textit{Database Application Developer} \hfill October 2014 | May 2016\\
+\textit{Software Engineer (Contract)} \hfill October 2014 - May 2016\\
 \vspace{-1mm}
 \begin{itemize} \itemsep 1pt
-	\item Created a web-enabled, searchable database application of subject experts for use by emergency response teams.
-	\item Architected a database and designed a graphical application using the Entity Framework for object-relational mapping.
-	\item Developed in Visual Studio 2013 with ASP.NET MVC 5, C\#, MySQL, LINQ, and Razor markup.
+	\item Created a SQL database and web application for emergency response teams to quickly search local subject matter expert contact information.
 \end{itemize}
+
+\header{Skills}
+\begingroup
+\setlength{\tabcolsep}{5pt} % Default value: 6pt
+\renewcommand{\arraystretch}{1.1} % Default value: 1
+\begin{tabular}{ l l }
+	Languages:            & C\#, C++, Rust, Powershell, Python, Bash, Ruby, Javascript, Vimscript  \strut  \\
+	DevOps:               & Git, TFS, Perforce, JIRA, Swarm, Confluence, Scoop, Cmake, Premake \strut      \\
+	3D Graphics:          & OpenGL, Vulkan, GLSL, RenderDoc, Unity, SDL2, Assimp, Bullet, Ogre3D \strut    \\
+	Web Development:      & ASP.NET, MVC, IIS, Razor, Jinja, Flask, Jekyll, WASM, HTML \strut              \\
+	Desktop Applications: & WPF, MVVM, XAML, MEF, MahApps Metro, MvvmLight \strut                               \\
+	Other:                & JSON, XML, Markdown, SiLA, Pester, YAML, LaTeX, GDB \strut                     \\
+\end{tabular}
+\endgroup
+\vspace{1mm}
 
 %==== Education ====%
 \header{Education}
-\textbf{University of Nevada, Reno}\hfill Reno, Nevada\\
-BS Computer Science and Engineering \hfill August 2013 - Dec 2017\\
+\textbf{University of Nevada, Reno}\hfill Reno, NV\\
+BS Computer Science and Engineering (Minor in Mathematics) \hfill August 2013 - Dec 2017\\
 \vspace{2mm}
 
-\header{Projects}
-{\textbf{Scoop Nerd Fonts}} {\sl Powershell} \hfill https://github.com/matthewjberger/scoop-nerd-fonts\\
-Scoop package manager manifests for installing nerd fonts\\
+\header{Personal Projects}
+{\textbf{DragonGlass}} {\sl Vulkan, Rust, GLSL/SPIR-V} \hfill https://github.com/matthewjberger/dragonglass\\
+A cross-platform gltf scene renderer.\\
 \vspace*{2mm}
-{\textbf{Eager}} {\sl C++, CMake, Ogre3D} \hfill https://github.com/matthewjberger/eager\\
-An Ogre3D 1.9 and C++ project template that uses CMake to setup an Ogre development environment quickly and easily\\
+{\textbf{Superbible}} {\sl OpenGL, Rust, GLSL} \hfill https://github.com/matthewjberger/superbible\\
+A rust port of the OpenGL superbible.\\
+\vspace*{2mm}
+{\textbf{Iceberg3D}} {\sl OpenGL, C++, CMake} \hfill https://github.com/matthewjberger/Iceberg3D\\
+A small, structured game engine.\\
 \vspace*{2mm}
 
-\header{Skills}
-\begin{tabular}{ l l }
-	Languages (Fluent): & C\#, C++, Powershell                      \\
-	Hobbies:            & Piano, Guitar, Rock Climbing, 3D Printing \\
-\end{tabular}
-\vspace{2mm}
-
-
-
-\ 
 \end{document}

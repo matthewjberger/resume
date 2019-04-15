@@ -3,23 +3,23 @@
   "headings": {
     "education": "Education",
     "awards": "",
-    "work": "Work Experience"
+    "work": "Work Experience",
+    "projects": "Personal Projects"
   },
   "basics": {
     "name": "Matthew Berger",
     "email": "matthewjordanberger@gmail.com",
-    "phone": "(775) 357 7884",
-    "website": "matthewjberger.xyz",
+    "phone": "775.357.7884",
+    "website": "matthewjberger.xyz/portfolio",
     "location": {
       "address": "Reno, NV"
     }
   },
   "education": [
     {
-      "location": "Reno, Nevada",
-      "area": "Computer Science and Engineering",
+      "location": "Reno, NV",
+      "area": "Computer Science and Engineering (Minor in Mathematics)",
       "endDate": "Dec 2017",
-      "gpa": "",
       "institution": "University of Nevada, Reno",
       "studyType": "BS",
       "startDate": "August 2013"
@@ -27,28 +27,49 @@
   ],
   "work": [
     {
-      "location": "Reno, NV",
-      "website": "",
       "highlights": [
-        "Consolidated a large robotic calibration software suite by architecting a plugin based WPF application, allowing rapid development of new features in a single application for service technicians.",
-        "Automated instrument validation by reverse engineering and consolidating the large software suite for gravimetric analysis into a single, modular, lightweight program compatible with all variations of the core Hamilton robots.",
-        "Repaired all build systems for major codebases and automated manual tasks via scripts, allowing developers to build Hamilton codebases in a reproducible and continuous integration compatible manner.",
-        "Improved the workflow of one of Hamilton's largest OEM customers by creating a plugin-oriented service application and set of calibration routines specifically for their robots that allowed the customer to manage their robots without needing the generic core Hamilton software.",
-        "Created high level C# libraries that simplified complex logic when gathering data from the software describing robotic deck layouts and using that data to execute commands on a robot, including a library that wrapped a particular robot's text only firmware into a logically structured and robust application capable of performing complex tasks on the device with ease and minimal lines of code. "
+        "Collaborated with remote engineers to integrate TextMeshPro into a Unity-based production casino game development framework.",
+        "Assessed and resolved batches of defects quickly that were crucial to the release of major games."
       ],
-      "startDate": "October 2014",
-      "company": "Hamilton Robotics",
-      "position": "Software Engineer I",
+      "company": "Scientific Games",
+      "position": "Software Engineer",
+      "location": "Reno, NV",
+      "startDate": "July 2019",
       "endDate": "Present"
     },
     {
+      "location": "Reno, NV",
+      "website": "",
       "highlights": [
-        "Created a web-enabled, searchable database application of subject experts for use by emergency response teams.",
-        "Architected a database and designed a graphical application using the Entity Framework for object-relational mapping.",
-        "Developed in Visual Studio 2013 with ASP.NET MVC 5, C#, MySQL, LINQ, and Razor markup."
+        "Designed and built safety-critical software in a cross-disciplinary environment that calibrates and operates liquid-handling medical robots.",
+        "Reduced development time for new calibration routines from two months to less than two weeks by consolidating multiple applications into a single GUI and reusable-plugin framework.",
+        "Decreased development environment setup from a day to a few clicks by creating a bootstrapper that installs dependencies and configures settings on a Windows virtual machine.",
+        "Worked directly with Hamilton's largest OEM customer to architect an application that commands the firmware in their robots for rapidly diagnosing and resolving mechanical issues.",
+        "Mentored new hires and interns on team processes and coding practices."
+      ],
+      "startDate": "December 2017",
+      "company": "Hamilton Robotics",
+      "position": "Software Engineer",
+      "endDate": "July 2019"
+    },
+    {
+      "highlights": [
+        "Decreased time spent quality testing robots by more than a week per robot by automating the process of gravimetric analysis.",
+        "Saved developers hours of time per day on common tasks by creating a suite of in-house tools.",
+        "Improved instrument sales by creating software adapters for both SiLA and non-SiLA compliant devices through collaboration with third-party device manufacturers."
+      ],
+      "company": "Hamilton Robotics",
+      "position": "Software Engineering Intern",
+      "location": "Reno, NV",
+      "startDate": "October 2014",
+      "endDate": "December 2017"
+    },
+    {
+      "highlights": [
+        "Created a SQL database and web application for emergency response teams to quickly search local subject matter expert contact information."
       ],
       "company": "Washoe REOC",
-      "position": "Database Application Developer",
+      "position": "Software Engineer (Contract)",
       "startDate": "October 2014",
       "endDate": "May 2016",
       "location": "Reno, NV"
@@ -60,55 +81,130 @@
       "keywords": [
         "C#",
         "C++",
-        "Powershell"
+        "Rust",
+        "Powershell",
+        "Python",
+        "Bash",
+        "Ruby",
+        "Javascript",
+        "Vimscript"
       ],
-      "name": "Languages (Fluent)"
+      "name": "Languages"
+    },
+    {
+      "level": "",
+      "keywords": [
+        "Git",
+        "TFS",
+        "Perforce",
+        "JIRA",
+        "Swarm",
+        "Confluence",
+        "Scoop",
+        "Cmake",
+        "Premake"
+      ],
+      "name": "DevOps"
     },
     {
       "keywords": [
-        "Piano",
-        "Guitar",
-        "Rock Climbing",
-        "3D Printing"
+        "OpenGL",
+        "Vulkan",
+        "GLSL",
+        "RenderDoc",
+        "Unity",
+        "SDL2",
+        "Assimp",
+        "Bullet",
+        "Ogre3D"
       ],
-      "name": "Hobbies"
+      "name": "3D Graphics"
+    },
+    {
+      "keywords": [
+        "ASP.NET",
+        "MVC",
+        "IIS",
+        "Razor",
+        "Jinja",
+        "Flask",
+        "Jekyll",
+        "WASM",
+        "HTML"
+      ],
+      "name": "Web Development"
+    },
+    {
+      "keywords": [
+        "WPF",
+        "MVVM",
+        "XAML",
+        "MEF",
+        "MahApps Metro",
+        "MvvmLight"
+      ],
+      "name": "Desktop Applications"
+    },
+    {
+      "keywords": [
+        "JSON",
+        "XML",
+        "Markdown",
+        "SiLA",
+        "Pester",
+        "YAML",
+        "LaTeX",
+        "GDB"
+      ],
+      "name": "Other"
     }
   ],
   "projects": [
     {
       "keywords": [
-        "Powershell"
+        "Vulkan",
+        "Rust",
+        "GLSL/SPIR-V"
       ],
-      "name": "Scoop Nerd Fonts",
-      "url": "https://github.com/matthewjberger/scoop-nerd-fonts",
-      "description": "Scoop package manager manifests for installing nerd fonts"
+      "name": "DragonGlass",
+      "url": "https://github.com/matthewjberger/dragonglass",
+      "description": "A cross-platform gltf scene renderer."
     },
     {
       "keywords": [
-        "C++",
-        "CMake",
-        "Ogre3D"
+        "OpenGL",
+        "Rust",
+        "GLSL"
       ],
-      "url": "https://github.com/matthewjberger/eager",
-      "description": "An Ogre3D 1.9 and C++ project template that uses CMake to setup an Ogre development environment quickly and easily",
-      "name": "Eager"
+      "name": "Superbible",
+      "description": "A rust port of the OpenGL superbible.",
+      "url": "https://github.com/matthewjberger/superbible"
+    },
+    {
+      "keywords": [
+        "OpenGL",
+        "CMake",
+        "C++"
+      ],
+      "name": "Iceberg3D",
+      "description": "A small, structured game engine.",
+      "url": "https://github.com/matthewjberger/Iceberg3D"
     }
   ],
   "awards": [
     {
       "title": "",
       "date": "",
-      "awarder": "",
-      "summary": ""
+      "awarder": ""
     }
   ],
   "sections": [
     "templates",
     "profile",
     "work",
+    "skills",
     "education",
     "projects",
-    "skills",
     "awards"
   ]
 }
