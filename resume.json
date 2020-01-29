@@ -182,9 +182,10 @@
     },
     {
       "keywords": [
-        "OpenGL",
+        "C++",
         "CMake",
-        "C++"
+        "OpenGL",
+        "GLSL"
       ],
       "name": "Iceberg3D",
       "description": "A small, structured game engine.",
